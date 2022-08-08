@@ -7,9 +7,9 @@ trigger:
 - master
 
 pool:
-  name: SMR-Common-Agent-Pool
+  name: az400m05l05a-pool
   demands:
-  - agent.name -equals SMR-Common-Agent-001
+  - agent.name -equals az400m05-vm0
 
 steps:
 - script: echo Hello, world!
